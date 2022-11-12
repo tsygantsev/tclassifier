@@ -1,0 +1,23 @@
+{
+  "version": 8,
+  "name": "plan-0",
+  "sources": {
+    "plan-0": {
+      "type": "raster",
+      "tiles": [
+        "https://hotels.smartilizer.ru/tiles/data/plan-0/{z}/{x}/{y}.pbf"
+      ],
+      "attribution": "Plan 0",
+      "tileSize": 64,
+      "minzoom": 0,
+      "maxzoom": 6
+    }
+  },
+  "layers": [
+    {
+      "id": "plan-0",
+      "type": "raster",
+      "source": "plan-0"
+    }
+  ]
+}
